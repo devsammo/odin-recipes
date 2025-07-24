@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 255, 189);
+  color: #6765bd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav>ul>li {
+  list-style: none;
+  display: inline-block;
+  padding-inline: 6px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+img {
+  border: 1px solid rgb(47, 80, 47);
+}
